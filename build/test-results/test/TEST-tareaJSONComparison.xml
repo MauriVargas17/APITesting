@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="tareaJSONComparison" tests="3" skipped="0" failures="0" errors="0" timestamp="2023-10-10T03:06:10" hostname="Mauricios-MacBook-Pro.local" time="0.039">
+  <properties/>
+  <testcase name="testCompareJSON_InvalidKey()" classname="tareaJSONComparison" time="0.025"/>
+  <testcase name="testCompareJSON_SameValues()" classname="tareaJSONComparison" time="0.003"/>
+  <testcase name="testCompareJSON_DifferentValues()" classname="tareaJSONComparison" time="0.01"/>
+  <system-out><![CDATA[Issue: JSONObject["key"] not found.
+Expected: foobar, Actual: boefar
+Expected: bazo, Actual: baz
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
